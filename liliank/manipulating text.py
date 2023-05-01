@@ -1,0 +1,10 @@
+name = input('Type your name:')
+a = name.upper()
+b = name.lower()
+c = name.strip()
+cc = len(c) - c.count(' ')
+d = name.split()
+e = d[0]
+f = len(e)
+print('Seu nome em maiusculo eh {}; \nSeu nome em minusculo eh {}; \n Seu nome ao todo possui {} letras;'.format(a, b, cc))
+print('Seu primeiro nome eh {} e tem {} letras;'.format(e, f))
